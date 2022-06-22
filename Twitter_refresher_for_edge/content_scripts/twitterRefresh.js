@@ -17,7 +17,7 @@
   function insertAction(actionURL) {
     removeExistingActions();
     let beastImage = document.createElement("img");
-    beastImage.setAttribute("src", beastURL);
+    beastImage.setAttribute("src", actionURL);
     beastImage.style.height = "100vh";
     beastImage.className = "twitter-refresh";
     document.body.appendChild(actionImage);
@@ -27,7 +27,7 @@
    * Remove every action from the page.
    */
   function removeExistingActions() {
-    let existingBeasts = document.querySelectorAll(".twitter-refresh");
+    let existingActions = document.querySelectorAll(".twitter-refresh");
     for (let action of existingActions) {
       action.remove();
     }
