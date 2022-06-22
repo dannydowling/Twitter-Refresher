@@ -29,29 +29,29 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="beastify_edge\Modes\start.jpg" />
-    <Content Include="beastify_edge\Modes\stop.jpg" />
-    <Content Include="beastify_edge\Modes\pause.jpg" />
-    <Content Include="beastify_edge\content_scripts\twitterRefresh.js" />
-    <Content Include="beastify_edge\icons\beasts-32.png" />
-    <Content Include="beastify_edge\icons\beasts-48.png" />
-    <Content Include="beastify_edge\icons\LICENSE" />
-    <Content Include="beastify_edge\manifest.json" />
-    <Content Include="beastify_edge\popup\choose_action.css" />
-    <Content Include="beastify_edge\popup\choose_action.html" />
-    <Content Include="beastify_edge\popup\choose_action.js" />
-    <Content Include="beastify_edge\README.md" />
     <Content Include="Timer\Timer.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="Twitter_refresher_for_edge\content_scripts\twitterRefresh.js" />
+    <Content Include="Twitter_refresher_for_edge\icons\beasts-32.png" />
+    <Content Include="Twitter_refresher_for_edge\icons\beasts-48.png" />
+    <Content Include="Twitter_refresher_for_edge\icons\LICENSE" />
+    <Content Include="Twitter_refresher_for_edge\manifest.json" />
+    <Content Include="Twitter_refresher_for_edge\Modes\pause.jpg" />
+    <Content Include="Twitter_refresher_for_edge\Modes\start.jpg" />
+    <Content Include="Twitter_refresher_for_edge\Modes\stop.jpg" />
+    <Content Include="Twitter_refresher_for_edge\popup\choose_action.css" />
+    <Content Include="Twitter_refresher_for_edge\popup\choose_action.html" />
+    <Content Include="Twitter_refresher_for_edge\popup\choose_action.js" />
+    <Content Include="Twitter_refresher_for_edge\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="beastify_edge\" />
-    <Folder Include="beastify_edge\Modes\" />
-    <Folder Include="beastify_edge\content_scripts\" />
-    <Folder Include="beastify_edge\icons\" />
-    <Folder Include="beastify_edge\popup\" />
     <Folder Include="Timer\" />
+    <Folder Include="Twitter_refresher_for_edge\" />
+    <Folder Include="Twitter_refresher_for_edge\content_scripts\" />
+    <Folder Include="Twitter_refresher_for_edge\icons\" />
+    <Folder Include="Twitter_refresher_for_edge\Modes\" />
+    <Folder Include="Twitter_refresher_for_edge\popup\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
 </Project>
